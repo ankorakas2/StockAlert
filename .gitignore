@@ -1,0 +1,30 @@
+# Secrets - NEVER upload these!
+mobile/android/app/google-services.json
+mobile/ios/Runner/GoogleService-Info.plist
+*.keystore
+android/key.properties
+.env
+.env.*
+firebase-admin-sdk.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Flutter
+.dart_tool/
+.flutter-plugins*
+mobile/build/
+*.apk
+*.aab
+*.ipa
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
